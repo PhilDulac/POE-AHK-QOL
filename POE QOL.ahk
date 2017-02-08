@@ -36,8 +36,7 @@ TradeLastWhisper()
 
 ThankTrader()
 {
-	ThankMsg = tyvm, gl!
-	Send ^{Enter}%ThankMsg%{Enter}
+	Send ^{Enter}tyvm,{Space}gl{!}{Enter}
 }
 
 DeleteItem()
